@@ -34,4 +34,20 @@ fun main(){
     val str7 = " Dünya"
     println(str6+str7)
 
+    val str8 = "Merhaba Kotlin"
+    println("$str8 Boyutu: ${str8.length}")
+
+    val str9 = "Merhaba"
+    val str10 = "Merhaba Dünya"
+
+    if (str9 == str10 ){
+        println("$str9 ve $str10 eşittir")
+    }else{
+        println("$str9 ve $str10 eşit değil ")
+    }
+
+    for (s in str10 ){
+        println(s)
+    }
+
 }
